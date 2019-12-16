@@ -1,0 +1,38 @@
+gettingStart {
+    > sera utilizado o bootstrap
+    > bootstrap necessita do Jquery, porem aqui nao sera necessario
+    > Libs {
+        $ yarn add axios bootstrap font-awesome react-router react-router-dom
+    }
+}
+
+estruturando pastas {
+    > dentro de src/, cria-se components
+    > dentro de components/, se cria templates
+    > (veja os arquivos) dentro de templates/, cria-se logo.css,logo.js / header.css,header,js / nav.css,nav.js / main.css,main.js / footer.css,footer.js
+    > obs: no main.js, ele controla o Header, pois o header fica mudando dependendo do conteudo
+    > dentro de src/, cria-se pasta main, dentro cria-se App.css,App.js ( veja o arquivo )
+    > ir em index.js, e trocar a referencia de App.js, agora para main/App
+    > Fim, esqueleto montado
+}
+
+estilizando aplicação {
+    > veja o arquivo src/main/App.css
+}
+
+trabalhando o componente Logo {
+    > veja o arquivo src/templates/logo.js
+    > veja o arquivo src/templates/logo.css
+}
+
+trabalhando com cabecalho {
+    > dentro de App.js, importe 'bootstrap/dist/css/bootstrap.min.css', 'font-awesome/css/font-awesome.min.css'
+    > passar as propriedades icon, title, subtitle no componente Main, e ele ira passar para o Header
+    > em Main.js, passe {...props} para o Header, com isso as props serao propagadas 
+    > veja o arquivo Header.js
+    > veja o arquivo Header.css
+}
+
+trabalhando com footer {
+    
+}

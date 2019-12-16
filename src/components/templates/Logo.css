@@ -1,0 +1,12 @@
+aside.logo {
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside.logo img {
+    padding: 0px 15px; /* espaçamento somente na horizontal */
+    width: 100%; /* ocupe 100% do espaço, caso a logo for maior, ela vai se alinhar ao espaço disponivel */
+    /* dica: caso a logo for muito horizontal, pode-se mudar a variavel --logo-height */
+}
