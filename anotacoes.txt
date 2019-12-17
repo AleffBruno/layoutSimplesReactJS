@@ -42,3 +42,12 @@ trabalhando com nav {
     > veja o arquivo Nav.js
     > veja o arquivo Nav.css
 }
+
+trabalhando com Main {
+    > atente-se a {props.children}, que serao as tags filhas que irao apra dentro de main
+    > veja o arquivo Main.js
+    > veja o arquivo Main.css
+    > cria-se em src/components, a pasta home/home.js ( veja o arquivo )
+    > foi pegue a tag e o conteudo de <Main> dentro de App.js e foi colocado em home.js
+    > agora em App.js, onde tinha <Main> , vai ser <Home>
+}
