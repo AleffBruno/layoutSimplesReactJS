@@ -67,10 +67,15 @@ Rotas / mapeando urls e componentes {
     }
 }
 
-
 trabalhando com UserCrud {
     > importe axios
     > configure a baseUrl ( isso poderia esta em um arquivo separado )
     > configure o estado inicial
     > crie as funcoes clear, save, getUpdatedList, updateField, renderForm
+}
+
+ajustes de responsividade {
+    > acesse App.css, veja as sessoes: @media(max-width: 768px), @media(max-width: 576px)
+    > acesse nav.css veja a sessao: @media(max-width: 768px) [atenção em --menu-top-height]
+    > acesse logo.css veja a sessao: @media(max-width: 576px)
 }
