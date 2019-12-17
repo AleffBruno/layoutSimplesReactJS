@@ -34,5 +34,11 @@ trabalhando com cabecalho {
 }
 
 trabalhando com footer {
-    
+    > veja o arquivo Footer.js
+    > veja o arquivo Footer.css
+}
+
+trabalhando com nav {
+    > veja o arquivo Nav.js
+    > veja o arquivo Nav.css
 }
