@@ -51,3 +51,18 @@ trabalhando com Main {
     > foi pegue a tag e o conteudo de <Main> dentro de App.js e foi colocado em home.js
     > agora em App.js, onde tinha <Main> , vai ser <Home>
 }
+
+Rotas / mapeando urls e componentes {
+    > dentro de src/main, cria-se Routes.js ( veja o arquivo )
+    > importe { HashRouter } from 'react-router-dom' e Routes.js em App.js
+    > Envolva os componentes que o App.js retorna em , HashRouter
+    > substitua o componente <Home> por <Routes>
+    > ajustes extras {
+        > substituir os link com a tag <a></a>, para o componente Link do react-router-dom
+        > acesse nav.js, substitua <a> por <Link>
+        > o mesmo para Logo.js
+    }
+    > ajustes opcionais {
+        > pode-se substituir <HashRouter> por <BrowserRouter>, assim a url fica mais 'amigavel'(sem o hash), porem pode ocorrer erros em prod, e sera necessario configurar o apache ou ngix para o redirecionamento ser feito de forma correta
+    }
+}
