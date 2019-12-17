@@ -66,3 +66,11 @@ Rotas / mapeando urls e componentes {
         > pode-se substituir <HashRouter> por <BrowserRouter>, assim a url fica mais 'amigavel'(sem o hash), porem pode ocorrer erros em prod, e sera necessario configurar o apache ou ngix para o redirecionamento ser feito de forma correta
     }
 }
+
+
+trabalhando com UserCrud {
+    > importe axios
+    > configure a baseUrl ( isso poderia esta em um arquivo separado )
+    > configure o estado inicial
+    > crie as funcoes clear, save, getUpdatedList, updateField, renderForm
+}
