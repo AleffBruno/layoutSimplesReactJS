@@ -5,19 +5,20 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import Routes from './Routes';
-import Logo from '../components/templates/Logo';
-import Nav from '../components/templates/Nav';
-import Footer from '../components/templates/Footer';
+// import Logo from '../components/templates/Logo';
+// import Nav from '../components/templates/Nav';
+// import Footer from '../components/templates/Footer';
 
 export default function App() {
     return (
         <BrowserRouter>
-            <div className="app">
+            {/* <div className="app">
                 <Logo />
                 <Nav />
                 <Routes />
                 <Footer />
-            </div>
+            </div> */}
+            <Routes />
         </BrowserRouter>
     )
 }
